@@ -1,0 +1,144 @@
+.login1{
+    width: 32%;
+    height: 100vh;
+
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-image: linear-gradient(#4C99DB,#5e86aa, #6F889D);
+   
+
+
+}
+
+.login2{
+
+    background: #E0E0E0;
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    bottom: 0;
+    width: 68%;
+}
+
+#logo{
+
+    width: 250px;
+    height: 300px;
+   position: relative;
+    right: 65px;
+    bottom: 45px;
+
+}
+
+
+#cadas{
+    position: relative;
+    color: white;
+    left: 20px;
+    bottom: 50px;
+    font-size: 43px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    
+}
+
+#campologin{
+
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+input{
+    position: relative;
+    width: 350px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(53, 49, 49) ;
+    margin: 12px;
+    right: 2%;
+    top: 20px;
+}
+
+
+
+
+
+input:focus{
+
+    border-bottom: 1px solid #0b2372cc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+
+
+}
+
+h1{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 25, 25);
+    left: 20%;
+    top: 20px;
+    
+    
+}
+
+button{
+
+    position: relative;
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    width: 120px;
+    border: 1px solid gray;
+    left: 5px;
+    top: 30px;
+
+}
+button:focus{
+
+    background: #5582aab9;
+
+}
+
+button:hover{
+
+
+    background: #5e87aa3a;
+    border: 1px solid black;
+    transition: ease-in-out .30s;
+    cursor: pointer;
+    
+}
+
+a{
+
+    margin:8px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+a:hover{
+
+    color: rgba(22, 130, 219, 0.651);
+
+
+}
+
+
+#links{
+
+   
+    
+  position: relative;
+  top: 35px;
+  left: 133px;
+    
+}
+
