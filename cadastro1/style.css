@@ -1,3 +1,4 @@
+
 .login1{
     width: 32%;
     height: 100vh;
@@ -5,7 +6,7 @@
     bottom: 0;
     left: 0;
     position: fixed;
-    background-image: linear-gradient(#4C99DB,#5e86aa, #6F889D);
+    background-image: linear-gradient(#116e62,#2284aa, #09998f);
    
 
 
@@ -38,16 +39,19 @@
     left: 20px;
     bottom: 50px;
     font-size: 43px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     margin: 20px;
+    font-size: 35px;
     
 }
 
 #campologin{
 
-
+    position: relative;
     display: flex;
     justify-content: center;
+    top: 50px;
+   
    
 }
 
@@ -62,6 +66,7 @@ input{
     margin: 12px;
     right: 2%;
     top: 20px;
+    font-family:sans-serif
 }
 
 
@@ -80,7 +85,7 @@ input:focus{
 
 h1{
     position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(26, 25, 25);
     left: 20%;
     top: 20px;
